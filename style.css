@@ -72,6 +72,13 @@ h1 {
     margin: 20px;
 }
 
+.three-width {
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
 .amount {
     font-weight: bolder;
     color: rgb(71, 69, 69);
@@ -103,4 +110,61 @@ hr {
 #other {
     color: rgb(117, 108, 108);
     ;
+}
+
+.donate-flex {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 170px;
+}
+
+#donate-one {
+    text-align: justify;
+    border-radius: 5px;
+    padding: 40px 20px;
+    background-color: rgb(224, 231, 235);
+}
+
+#donate-two {
+    text-align: justify;
+    border-radius: 5px;
+    padding: 40px 20px;
+    background-color: rgb(247, 234, 246);
+}
+
+#donate-three {
+    text-align: justify;
+    border-radius: 5px;
+    padding: 40px 20px;
+    background-color: rgb(252, 250, 229);
+}
+
+.three-width h3 {
+    margin: 15px 0px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(39, 39, 72);
+    position: relative;
+}
+
+.footer-div p {
+    position: absolute;
+    left: 46%;
+    top: 70%;
+    color: #fff;
+    font-size: 10px;
+}
+
+#humble {
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(247, 111, 111);
+    font-weight: bolder;
+    font-size: larger;
 }
