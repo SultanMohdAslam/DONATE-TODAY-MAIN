@@ -11,26 +11,22 @@ h1 {
 #div-head {
     width: 1440;
     height: 669;
-    position: relative;
 }
-
+ 
 .section-top {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+ 
 .head-line {
-    width: 90%;
-    height: 300px;
     color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 8%;
     text-align: center;
 }
 
